@@ -58,14 +58,4 @@ To train the model, you can use the provided Python script `train.py`. This scri
 python train.py --data_path [data_path] --save_path [save_path] --batch_size [batch_size] --epochs [epochs] --conv_channels [conv_channels] --features [features] --use_rnn [use_rnn] --num_layers [num_layers] --learning_rate [learning_rate] --mode [mode]
 ```
 
-[data_path]: Path to the training data.
-[save_path]: Path to save the trained model.
-[batch_size]: Batch size for training.
-[epochs]: Number of epochs for training.
-[conv_channels]: Number of channels for convolutional layers.
-[features]: Number of features.
-[use_rnn]: Whether to use RNN model.
-[num_layers]: Number of layers for RNN model.
-[learning_rate]: Learning rate for training.
-[mode]: Mode for training.  
 Make sure to replace the arguments with the actual values according to your requirements.
