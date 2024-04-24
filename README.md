@@ -13,6 +13,8 @@ PyTorch is an open-source machine learning library for deep learning tasks. It p
 
 ```bash
 pip install torch torchvision torchaudio
+```
 
 ###Install Project Dependencies
+
 To install project dependencies, navigate to the root directory of your project where the requirements.txt file is located and run the following command:
