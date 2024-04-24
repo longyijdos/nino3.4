@@ -68,3 +68,25 @@ python train.py --data_path [data_path] --save_path [save_path] --batch_size [ba
 [learning_rate]: Learning rate for training.  
 [mode]: Mode for training (default: "train").  
 Make sure to replace the arguments with the actual values according to your requirements.
+
+### Validation
+
+To validate the trained model, you can use the provided Python script `validate.py`. This script allows you to validate the model with various configurations. Here's how to use it:
+
+```bash
+python validate.py --data_path [data_path] --model_path [model_path] --model_name [model_name] --save_path [save_path] --batch_size [batch_size] --conv_channels [conv_channels] --features [features] --use_rnn [use_rnn] --num_layers [num_layers] --learning_rate [learning_rate] --mode [mode]
+```
+
+Replace the arguments with the desired values:
+
+[data_path]: Path to the validation data.  
+[model_path]: Path to the saved model.  
+[model_name]: Name of the model file (best_model.pth or final_model.pth).  
+[save_path]: Path to save the log.  
+[batch_size]: Batch size for validation.  
+[conv_channels]: Number of channels for convolutional layers.  
+[features]: Number of features.  
+[use_rnn]: Whether to use RNN model.  
+[num_layers]: Number of layers for RNN model.  
+[learning_rate]: Learning rate for validation.  
+[mode]: Mode for validation (default: "val").
