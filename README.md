@@ -22,3 +22,14 @@ To install project dependencies, navigate to the root directory of your project 
 ```bash
 pip install -r requirements.txt
 ```
+## Data Preparation
+
+### Data Download
+
+Run the script with the following command:
+
+```bash
+python download.py --name [dataset_name] --save_path [save_path]
+```
+
+Repeat the command for each dataset to ensure you have downloaded all required datasets.
