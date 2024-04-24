@@ -24,12 +24,28 @@ pip install -r requirements.txt
 ```
 ## Data Preparation
 
-### Data Download
+### Download
 
 Run the script with the following command:
 
 ```bash
+cd data_preprocess
 python download.py --name [dataset_name] --save_path [save_path]
 ```
 
+Replace [dataset_name] with the name of the dataset you want to download (cmip6, errstv6, godas, or soda). You can also specify the save path using the --save_path argument.
 Repeat the command for each dataset to ensure you have downloaded all required datasets.
+
+### Preprocess
+
+Run the script with the following command:
+
+```bash
+cd data_preprocess
+python preprocess.py --name [dataset_name] --data_path [data_path] --save_path [save_path]
+```
+
+Replace [dataset_name] with the name of the dataset you want to preprocess (cmip6, errstv6, godas, or soda).
+Use the --data_path argument to specify the path to the dataset.
+Use the --save_path argument to specify the path where the preprocessed data will be saved.
+Repeat the above steps to preprocess all datasets.
