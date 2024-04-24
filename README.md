@@ -71,7 +71,7 @@ Make sure to replace the arguments with the actual values according to your requ
 
 ### Validation
 
-To validate the trained model, you can use the provided Python script `validate.py`. This script allows you to validate the model with various configurations. Here's how to use it:
+To validate the trained model, you can use the provided Python script `val.py`. This script allows you to validate the model with various configurations. Here's how to use it:
 
 ```bash
 python validate.py --data_path [data_path] --model_path [model_path] --model_name [model_name] --save_path [save_path] --batch_size [batch_size] --conv_channels [conv_channels] --features [features] --use_rnn [use_rnn] --num_layers [num_layers] --learning_rate [learning_rate] --mode [mode]
